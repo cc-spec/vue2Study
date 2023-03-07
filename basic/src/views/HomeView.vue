@@ -5,17 +5,17 @@
 </template>
 
 <script>
-import ModelItem from '@/components/ModelItem.vue';
+import ModelItem from "@/components/ModelItem.vue";
 
 export default {
   name: "HomeView",
-  comments: {
-    ModelItem
+  components: {
+    ModelItem,
   },
   data() {
     return {
-      changeItem: false
-    }
-  }
+      changeItem: false,
+    };
+  },
 };
 </script>
